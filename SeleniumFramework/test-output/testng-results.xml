@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-21T18:26:46 IST" name="Default suite" finished-at="2021-07-21T18:27:08 IST" duration-ms="22264">
+    <groups>
+    </groups>
+    <test started-at="2021-07-21T18:26:46 IST" name="Default test" finished-at="2021-07-21T18:27:08 IST" duration-ms="22264">
+      <class name="com.auto.test.LoginTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.auto.test.LoginTest@13e39c73]" started-at="2021-07-21T18:26:46 IST" name="openApplication" finished-at="2021-07-21T18:26:51 IST" duration-ms="5076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.LoginTest@13e39c73]" started-at="2021-07-21T18:26:51 IST" name="login" data-provider="getLoginData" finished-at="2021-07-21T18:26:53 IST" duration-ms="1884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arun.selenium@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Second@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Successfull]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.test.LoginTest@13e39c73]" started-at="2021-07-21T18:26:53 IST" name="tearDown" finished-at="2021-07-21T18:26:53 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.auto.test.LoginTest@13e39c73]" started-at="2021-07-21T18:26:53 IST" name="openApplication" finished-at="2021-07-21T18:26:56 IST" duration-ms="3433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.LoginTest@13e39c73]" started-at="2021-07-21T18:26:56 IST" name="login" data-provider="getLoginData" finished-at="2021-07-21T18:27:08 IST" duration-ms="11527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.test.LoginTest@13e39c73]" started-at="2021-07-21T18:27:08 IST" name="tearDown" finished-at="2021-07-21T18:27:08 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.auto.test.LoginTest -->
+      <class name="com.auto.test.TestTwo">
+        <test-method signature="testTwo()[pri:0, instance:com.auto.test.TestTwo@64cd705f]" started-at="2021-07-21T18:27:08 IST" name="testTwo" finished-at="2021-07-21T18:27:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- com.auto.test.TestTwo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
